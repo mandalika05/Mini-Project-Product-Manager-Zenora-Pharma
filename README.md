@@ -5,10 +5,10 @@
 Mini Project Pemrograman Web — Pertemuan 3 (Integrasi PHP, MySQL & UI Styling).
 
 
-Nama : INTAN MANDALIKA 
-NIM : 250180005
-Kelas : A1 — Sistem Informasi
-
+- **Nama:** INTAN MANDALIKA
+- **NIM:** 250180005
+- **Kelas:** A1 — Sistem Informasi
+  
 ## 🎯 Deskripsi Proyek
 
 Zenora Pharma adalah aplikasi web untuk mengelola katalog dan stok obat apotek dengan tampilan bertema *smart pharmacy* (dark/light theme). Aplikasi menerapkan keamanan berlapis: PDO Prepared Statement untuk mencegah SQL Injection, `htmlspecialchars()` untuk mencegah XSS, token CSRF kriptografik via `random_bytes()`, serta pola Post-Redirect-Get (PRG) untuk mencegah duplikasi data saat refresh. Kode disusun dengan prinsip pemisahan tanggung jawab: konfigurasi, logika, dan tampilan berada di file yang berbeda.
