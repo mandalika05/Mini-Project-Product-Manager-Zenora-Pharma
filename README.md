@@ -212,6 +212,19 @@ apotek-manager/
 
 ![Responsif Layar Sempit](public/assets/screenshots/ss_10_responsive.png)
 
-## 💭 Refleksi
 
-Bagian paling rentan pada aplikasi adalah **input** dan **alur request**. Input dikontrol lewat validasi server-side dan prepared statement, output dikontrol lewat `htmlspecialchars`, sedangkan alur perubahan data dikontrol lewat metode POST, token CSRF, dan pola PRG. Validasi HTML seperti `required` hanya membantu pengguna, keputusan akhir tetap ada di PHP.
+ringkasan Checklist Pengujian:
+☐ 1. Create item valid - Banner hijau + obat tampil di grid
+☐ 2. Nama < 3 karakter - Pesan "Nama minimal 3 karakter."
+☐ 3. Harga nol / negatif - Pesan "Harga harus > 0."
+☐ 4. Stok negatif - Pesan "Stok tidak boleh negatif."
+☐ 5. Nama duplikat - Pesan "Nama produk sudah terdaftar."
+☐ 6. Injeksi XSS - Tag tampil sebagai teks
+☐ 7. Refresh setelah create (PRG) - Tidak ada data ganda
+☐ 8. Update item - Nilai baru tampil + banner
+☐ 9. Delete item - Obat hilang + banner
+☐ 10. Delete lewat GET - HTTP 405
+☐ 11. Token CSRF palsu - HTTP 403
+☐ 12. Pencarian + SQL injection - Filter akurat, input aman
+☐ 13. Responsivitas layar - Satu kolom di ±400px
+
