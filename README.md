@@ -4,11 +4,10 @@
 
 Mini Project Pemrograman Web — Pertemuan 3 (Integrasi PHP, MySQL & UI Styling).
 
-| | |
-|---|---|
-| Nama | Intan Mandalika |
-| NIM | 250180005 |
-| Kelas | A1 — Sistem Informasi |
+
+Nama : INTAN MANDALIKA 
+NIM : 250180005
+Kelas : A1 — Sistem Informasi
 
 ## 🎯 Deskripsi Proyek
 
